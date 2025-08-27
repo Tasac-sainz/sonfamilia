@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Calibri, sans-serif;
+}
+
+header {
+    background-image: url(./img/Imagen\ de\ WhatsApp\ 2025-08-27\ a\ las\ 16.55.55_97129548.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+}
+
+.title {
+    background-color: rgb(213, 212, 209, 0.5);
+    text-align: center;
+    height: min-content;
+    border-radius: 10px;
+    font-family: "Permanent Marker";
+    color: rgb(27, 27, 27);
+    font-size: 80px;
+    
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    left: 20px;
+    top: 50%;                          /* Lo mueve a la mitad de la altura del header */
+    transform: translateY(-50%);      /* Lo sube la mitad de su propia altura, logrando el centrado vertical perfecto */
+}
+.list {
+    background-color: rgb(124, 123, 123);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.burger-menu {
+    width: 50px;
+    height: auto;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease; /* Opcional: añade una transición suave */
+}
+
+main {
+    background-color: rgba(133, 132, 132);
+    padding-top: 20px;
+}
+
+.home {
+    padding: 50px 20px 10px 20px;
+    text-align: center;
+}
+
+.home-text {
+ margin-top: 30px;
+ line-height: 40px;
+ font-size: 20px;
+ padding: 0 40px 10px 40px;
+
+}
