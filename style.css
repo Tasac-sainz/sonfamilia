@@ -5,12 +5,9 @@
     list-style: none;
     font-family: Calibri, sans-serif;
 }
-
 a {
     text-decoration: none;
-    color: white;
 }
-
 header {
     background-image: url(./img/Imagen\ de\ WhatsApp\ 2025-08-27\ a\ las\ 16.55.55_97129548.jpg);
     display: flex;
@@ -20,7 +17,17 @@ header {
     height: 400px;
     box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
 }
-
+.dog-header {
+    background-image: url(./img/Imagen\ de\ WhatsApp\ 2025-08-27\ a\ las\ 16.51.48_fada049d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+}
 footer {
     background-color: black;
     color: white;
@@ -30,12 +37,13 @@ footer {
     justify-content: space-between;
     padding: 10px;
 }
-
+footer a {
+    color: white;
+}
 main {
-    background-color: rgb(192, 186, 186);
+    background-color: rgb(231, 229, 229);
     padding-top: 20px;
 }
-
 h2 {
     padding: 50px 20px 10px 20px;
     text-align: center;
@@ -61,18 +69,28 @@ h2 {
     top: 50%;                          /* Lo mueve a la mitad de la altura del header */
     transform: translateY(-50%);      /* Lo sube la mitad de su propia altura, logrando el centrado vertical perfecto */
 }
+
 .list {
-    background-color: rgb(124, 123, 123);
+    background-color:  rgb(213, 212, 209, 0.5);
     padding: 15px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 10px; 
 }
+.list a {
+    color: black;
+    text-decoration: none;
+}
+.list a:visited {
+    color: black;
+}
+
 .burger-menu {
     width: 50px;
     height: auto;
-    background-color: grey;
+    background-color: rgb(213, 212, 209, 0.5);
     border-radius: 10px;
     cursor: pointer;
+    margin-top: -120px;
 }
 
 .hidden {
@@ -83,12 +101,16 @@ h2 {
 
 
 .paragraph {
- margin: 30px 0 30px 0;
+ margin-top: 30px;
  line-height: 40px;
  font-size: 20px;
  padding: 0 40px 10px 40px;
  text-align: center;
 
+}
+
+.p-content-final {
+    margin-bottom: 100px;
 }
 
 .content {
