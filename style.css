@@ -6,6 +6,11 @@
     font-family: Calibri, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 header {
     background-image: url(./img/Imagen\ de\ WhatsApp\ 2025-08-27\ a\ las\ 16.55.55_97129548.jpg);
     display: flex;
@@ -14,6 +19,26 @@ header {
     position: relative;
     height: 400px;
     box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+main {
+    background-color: rgb(192, 186, 186);
+    padding-top: 20px;
+}
+
+h2 {
+    padding: 50px 20px 10px 20px;
+    text-align: center;
 }
 
 .title {
@@ -47,6 +72,7 @@ header {
     height: auto;
     background-color: grey;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .hidden {
@@ -55,20 +81,26 @@ header {
   transition: opacity 0.3s ease; /* Opcional: añade una transición suave */
 }
 
-main {
-    background-color: rgba(133, 132, 132);
-    padding-top: 20px;
-}
 
-.home {
-    padding: 50px 20px 10px 20px;
-    text-align: center;
-}
-
-.home-text {
- margin-top: 30px;
+.paragraph {
+ margin: 30px 0 30px 0;
  line-height: 40px;
  font-size: 20px;
  padding: 0 40px 10px 40px;
+ text-align: center;
 
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tango {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 40px 0 40px 0;
+}
+
