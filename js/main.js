@@ -7,3 +7,10 @@ const menuList = document.querySelector(".list");
 burger.addEventListener ("click", () => {
     menuList.classList.toggle("hidden");
 })
+
+const selectDog = document.querySelector(".select-dog_form");
+const imgDog = document.querySelector(".dog-img")
+
+const handleClickSelectDog = () => {
+
+}
