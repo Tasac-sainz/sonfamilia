@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somos Familia-Contacto</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/_contact-page.css"/>
+    <link rel="shortcut icon" href="./img/fenix simple.png" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu-nav">
+            <img class="burger-menu" src="./img/burguer.svg"/>
+            <ul class="list hidden">
+                <li><a href="dog-page.html" target="_blank">Perros</a></li>
+                <li>Gatos</li>
+                <li><a href="./vete_page.html" target="_blank">Veterinarios</a></li>
+                <li>Tiendas especializadas</li>
+                <li>Residencias y guarderías</li>
+            </ul>
+        </nav>
+        <h1 class="title">SON FAMILIA</h1>
+    </header>
+    <main class="contact-main">
+        <h1 class="title-page">¿Hablamos?</h1>
+        <h2 class="subtitle">Envíanos tus dudas, sugerencias, inquietudes o lo que te apetezca contarnos</h2>
+        <p class="paragraph">En <strong>Son Familia</strong> estamos especialmente interesadas en recoger vuestra opinión sobre el servicio informativo que facilitamos, así como en añadir más recursos que tengan la filosofía del respeto a los animales como pilar profesional y sensibilidad para tratar con el cariño que nuestros peludos merecen. Además, si tienes cualquier duda sobre los servicios de la web o simplemente quieres que estemos en contacto, rellena el formulario y ... ¡listo!</p>
+
+        <section class="form-container">
+            <form action="https://formspree.io/f/xldwgzkq" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="input-contact name" placeholder="escribe aquí tu nombre" name="Nombre"/>
+                </div>
+                <div class="form-group">
+                    <label for="mail">Correo electrónico</label>
+                    <input type="email" class="input-contact mail" placeholder="escribe aquí tu correo electrónico" name="Mail"/>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comentario</label>
+                    <textarea class="comments" placeholder="¡cuéntanos!" name="Comentario"></textarea>
+                </div>
+                <button type="submit" class="btn-form">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+        <footer>
+        <a href="./contact-page.html">Contacto</a>
+        <p>&copyKaski ...keep coding...</p>
+    </footer>
+    
+   <script src="./js/main.js"></script>
+</body>
+</html>

@@ -42,4 +42,10 @@
 .vets-card_direction {
     margin: 5px 0 5px 0;
     font-weight: 600;
+    font-size: 15px;
+}
+.clinic {
+    font-size: 18px;
+    font-family: 'Permanent Marker'
+
 }
