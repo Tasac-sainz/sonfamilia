@@ -15,7 +15,7 @@ const textDescrip = document.querySelector(".dog-description")
 
 const breedDescription = 
     {"hound/ibizan":"Es el perro más inteligente del mundo", 
-    "husky": "Son independientes y cantarines"};
+    "husky": "Son independientes y cantarines", "labrador": "Los labradores son perros juguetones y amigables"};
 
 
 const buildImg = (url) => {
@@ -57,3 +57,4 @@ const handleClickSelectDog = (event) => {
 }
 
 selectDog.addEventListener("change", handleClickSelectDog);
+
