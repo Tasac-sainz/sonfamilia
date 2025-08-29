@@ -6,6 +6,9 @@
     text-align: center;
     padding-top: 30px;
 }
+.p-contact {
+    padding-bottom: 50px;
+}
 .contact-form {
     border-radius: 10px;
     box-shadow: 5px 5px 10px #888888;

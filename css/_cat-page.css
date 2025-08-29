@@ -1,0 +1,25 @@
+.cat-container {
+  display: flex;
+  flex-direction: column; /* Agregas esto para la disposición en columna */
+  align-items: center; 
+  gap: 40px; 
+}
+.kitten-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+  padding: 10px;
+  transition: 0.25s all;
+/*   width: 100vw; */
+  box-shadow: 0 0.46875rem 2.1875rem rgb(4 9 20 / 3%),
+    0 0.9375rem 1.40625rem rgb(4 9 20 / 3%),
+    0 0.25rem 0.53125rem rgb(4 9 20 / 5%), 0 0.125rem 0.1875rem rgb(4 9 20 / 3%);
+  text-align: center;
+}
+
+.kitten-image {
+    width: 40%;
+}
