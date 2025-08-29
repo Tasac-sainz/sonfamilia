@@ -1,6 +1,20 @@
 'use strict'
 console.log("ready dog-page");
 
+const burger = document.querySelector(".burger-menu");
+const menuList = document.querySelector(".list");
+const menuLinks = document.querySelectorAll(".go-to");
+
+burger.addEventListener ("click", () => {
+    menuList.classList.toggle("hidden");
+});
+
+menuLinks.forEach((link) => {
+    link.addEventListener ("click", (event) => {
+    menuList.classList.add("hidden");
+})});
+
+
 const selectDog = document.querySelector(".select-dog_form");
 const imgDog = document.querySelector(".dog-img");
 const textDescrip = document.querySelector(".dog-description")
