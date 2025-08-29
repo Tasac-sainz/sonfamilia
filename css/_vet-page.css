@@ -10,3 +10,36 @@
     font-size: 60px;
     width: 75%;
 }
+.p-content {
+    margin-bottom: 60px;
+}
+
+.vets {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    max-width: 900px; 
+}
+.vets-card{
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.vets-card_img {
+    width: 150px;
+    height: 100px;
+    margin: 10px 0 10px 0;
+}
+.vets-card_descrip {
+    font-size: 15px;
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+}
+.vets-card_direction {
+    margin: 5px 0 5px 0;
+    font-weight: 600;
+}
