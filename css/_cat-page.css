@@ -64,9 +64,9 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 
 .random-cat-img {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 }

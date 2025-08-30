@@ -30,7 +30,7 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 100px;
 }
 .dog-img {
     width: 30%;
@@ -46,5 +46,27 @@
     font-size: 30px;
     font-weight: 700;
     font-family: "Permanent Marker";
-    padding: 80px 20px 100px 0;
+    padding: 80px 20px 80px 0;
+}
+
+@media screen and (max-width: 700px) {
+    .result-form {
+        gap: 50px;
+        margin-top: 30px;
+    }
+
+    .dog-description {
+        font-size: 14px;
+        width: 50%
+    }
+    .dog-description.quote {
+        font-size: 14px;
+        padding: 60px 20px 60px 20px;
+    }
+
+    .dog-img {
+        width: 50%;
+        padding-right: 20px;
+    }
+    
 }
