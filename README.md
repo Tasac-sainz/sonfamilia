@@ -1,4 +1,4 @@
-# sonfamilia
+# somosfamilia
 Este proyecto nace con la ilusión de poder devolverle al mundo lo que los perros y gatos con los que he convivido me han dado, mostrando a través
 imágenes y textos, la importancia que tiene el trato respetuoso hacia los animales y colmarles de cariño y cuidados ya que ellos, nos lo dan todo...
 o al menos, a mí, me lo han dado siempre.
