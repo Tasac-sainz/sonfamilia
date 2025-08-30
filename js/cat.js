@@ -95,4 +95,21 @@ const getRandomCat = () => {
 
 getRandomCat();
 
-btnCat.addEventListener("click", getRandomCat);
+const getMoreCats = () => {
+    const promise = [];
+    for (let i=0; i<4; i++) {
+        promise.push (
+            fetch ("https://api.thecatapi.com/v1/images/search").then((response) => response.json()));
+    
+    Promise.all (promise).then ((data) => {
+        randomCatContainer.innerHTML ="";
+        data.forEach((catArray) => {
+        const cat = catArray[0]; // La API devuelve un array, por eso accedemos al primer elemento.
+        const catImg = document.createElement("img"); 
+        catImg.src = cat.url;
+        catImg.classList.add("random-cat-img"); 
+        randomCatContainer.appendChild(catImg); 
+   })})
+}};
+
+btnCat.addEventListener("click", getMoreCats);
