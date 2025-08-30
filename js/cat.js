@@ -1,19 +1,6 @@
 'use strict'
 console.log("ready cat-page");
 
-const burger = document.querySelector(".burger-menu");
-const menuList = document.querySelector(".list");
-const menuLinks = document.querySelectorAll(".list a");
-
-burger.addEventListener ("click", () => {
-    menuList.classList.toggle("hidden");
-});
-
-menuLinks.forEach((link) => {
-    link.addEventListener ("click", (event) => {
-    menuList.classList.add("hidden");
-})});
-
 
 const kittenData_1= {
     nameKitten: "Zape",
@@ -89,3 +76,23 @@ catList.forEach ((cat) => {
         </div>`;
     catContainer.innerHTML += catCard
 })
+
+const randomCatContainer = document.querySelector(".cat-random-container");
+const randomCat = document.querySelector(".random-cat-img");
+const btnCat = document.querySelector (".cat-btn");
+
+
+const getRandomCat = () => {
+  fetch("https://api.thecatapi.com/v1/images/search")
+    .then((response) => response.json())
+    .then((data) => {
+      randomCat.src = data[0].url;
+    })
+    .catch((error) => {
+      console.log("Se ha producido un error:", error);
+    });
+};
+
+getRandomCat();
+
+btnCat.addEventListener("click", getRandomCat);

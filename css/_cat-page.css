@@ -50,12 +50,22 @@
   font-weight: 600;
 }
 
-
+.cat-random-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 150px 0;
+}
+.random-cat-img {
+  width: 20%;
+  height: auto;
+}
 
 
 @media screen and (max-width: 600px) {
 
-.cat-container {
+.random-cat-img {
   grid-template-columns: repeat(2, 1fr);
 }
 }
